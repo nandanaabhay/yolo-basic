@@ -1,7 +1,8 @@
-from inference import run_inference
+from inference import run_inference, run_live_detection
 
-input_url = "input/image/traffic.jpg"
+# input_url = "input/image/traffic.jpg"
+# result_dir = run_inference(input_url)
 
-result_dir = run_inference(input_url)
+run_live_detection()
 
 
